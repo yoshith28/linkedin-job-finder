@@ -1,14 +1,11 @@
-This is a linked job finder
-Initially the job_role and location are defaultly set to "Frontend Developer" and "India" respectively
-To change those parameters you can use postman to set those parameters according to your wish
-
 Requirements:
 Flask, requests, beautifulsoup4
 
-How to run:
-open your terminal and execute
-python api.py
+Adds a new Flask endpoint /scrape-linkedin that allows users to search for job listings on LinkedIn by specifying job roles and locations.
 
-The application runs on localhost:5000
-
-The api endpoint is localhost:5000/scrape-linkedin
+Key Changes
+Endpoint: /scrape-linkedin (GET)
+Parameters:
+job_role: Job title (default: Frontend Developer)
+location: Location (default: India)
+Functionality: Scrapes LinkedIn for job postings and returns details in JSON format.
