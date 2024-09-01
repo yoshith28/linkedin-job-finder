@@ -8,3 +8,7 @@ Flask, requests, beautifulsoup4
 How to run:
 open your terminal and execute
 python api.py
+
+The application runs on localhost:5000
+
+The api endpoint is localhost:5000/scrape-linkedin
